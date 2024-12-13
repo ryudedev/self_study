@@ -1,0 +1,10 @@
+{
+  "name": "@repo/nextjs_supabase_stripe",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "dcupdb",
+    "down": "dcdnv",
+    "restart": "pnpm down && pnpm dev",
+    "build": "cd web && pnpm build"
+  }
+}
